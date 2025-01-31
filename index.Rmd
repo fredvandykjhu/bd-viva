@@ -1,9 +1,325 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+title: "VIVA DOCS SITE V1"
+author: "JHU SRS TEAM"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Down the rabbit-hole
+# Introduction
 
+*This section explains why sample registration systems are needed in
+low- and middle-income countries and how we are using the term
+sample-based mortality surveillance system throughout this document. It
+also gives an overview of the steps required for implementing an SMSS.*
+
+**Key Points:**
+
+-   A sample registration system (SRS) uses a similar sampling survey
+    concept but establishes continuous collection of population,
+    fertility and mortality data from small geographic areas, carefully
+    selected to generate estimates that are representative at a desired
+    domain such as national, provincial or district level.
+
+-   An SRS can provide data that's more complete than the data from
+    civil registration and health systems and more timely than data from
+    largescale household surveys.
+
+-   An SRS can be designed to catalyze the rapid scale-up of Civil
+    Registration and Vital Statistics in high mortality countries.
+
+The availability of continuous information on mortality and its
+distribution in a country is necessary for effective decision-making in
+health program planning and resource allocation. It is also required for
+the monitoring of the effectiveness of health programs in preventing
+premature deaths. However, low- and middle-income countries (LMICs),
+which bear the highest burden of preventable premature deaths, suffer a
+crucial lack of timely data on mortality and causes of death. Thus, they
+are unable to adequately make health planning decisions based on local
+and empirical mortality information.
+
+Government data systems such as the civil registration and vital
+statistics (CRVS) and the routine health information system (RHIS) offer
+promising solutions, but their current mortality deficiencies are
+enormous and structural, and it will take decades to address them. CRVS
+suffers severe coverage and event registration incompleteness. RHIS
+captures only facility users, and deaths are not completely recorded and
+reported or always certified with cause of death. A feature of these
+systems, which is also their main challenge, is their exhaustivity
+mandate, that is their legal and ethical requirement to cover the entire
+population of the country.
+
+To circumvent the challenges with CRVS and RHIS, countries usually
+implement national household sample surveys. The survey approach has
+been very beneficial and contributed substantially to advances in health
+programming and monitoring. However, surveys are irregular, short-term,
+and do not produce the recent data and disaggregation needed by these
+countries, specifically for outcomes such as mortality and health
+status. While they are effective at addressing specific health questions
+in specific populations and must continue and be improved on, they are
+not the most effective at continuous mortality monitoring.
+
+A sample registration system (SRS) uses a similar sampling survey
+concept but establishes continuous collection of population, fertility
+and mortality data from small geographic areas, carefully selected to
+generate estimates that are representative at a desired domain such as
+national, provincial or district. An SRS does not register events
+legally, nor does it aim to cover the entire population. It is a vital
+statistics approach that collects and analyzes mortality and other
+population data to generate regular empirical estimates that are used
+for health monitoring. It can however facilitate registration of events
+within its coverage areas by linking to a CRVS system where events
+identified are transferred and registered. It can help catalyze the
+rapid scale-up of the CRVS system by not only linking the data but
+evaluating the completeness and quality of information from the CRVS
+system. Strategies that would build on an SRS to improve the
+completeness of CRVS are yet to be demonstrated. SRS have been
+implemented in many countries, including India[^1], Bangladesh[^2],
+Indonesia[^3], Vietnam[^4], and China[^5]. The experience in Africa is
+limited to one trial in Tanzania[^6] and recent launches in Mozambique
+and Sierra Leone.[^7]^,^[^8]
+
+Recognizing the essential need for African countries to establish and
+strengthen systems to monitor mortality, the Africa Centers for Disease
+Control and Prevention (Africa CDC) developed, through consultation with
+its member States and experts, a continental framework for strengthening
+mortality surveillance in Africa, launched in September 2022.[^9] The
+framework represents an initial overall guidance document for countries
+in developing a strong mortality surveillance system that is based on a
+well-coordinated and integrated approach and aimed to harmonize all
+existing mortality data systems, standardize existing processes for data
+collection, analysis and dissemination, and standardizing mechanisms for
+death reporting that is aligned with the CRVS. Countries will still need
+practical manuals on the implementation of specific surveillance
+approaches. These operational manuals are under development by Africa
+CDC. Building on this momentum, the World Health Organization has also
+initiated the development of guidance materials for integrated mortality
+surveillance. While these efforts are critically needed to fill the
+mortality monitoring literacy gaps in LMICs, concrete steps toward
+systems that can generate reliable data in the short run are yet to be
+widely published.
+
+Located in Eastern African, Mozambique launched an SRS in 2017 with
+financial support from the Bill & Melinda Gates Foundation (BMGF) and
+technical assistance from the Johns Hopkins Bloomberg School of Public
+Health. The SRS was initially implemented jointly by the National
+Institute of Health (INS) and the National Institute of Statistics
+(INE), but transitioned to INS leadership since 2021, with financial
+support from the Global Fund. It was initially called "*Countrywide
+Mortality Surveillance for Action -- COMSA*" and later rebranded as
+*"Sistema Comunitário de Vigilância em Saúde e de Eventos Vitais
+(Sis-COVE)" (Community Surveillance System for health and Vital
+Events)*. A similar investment was also implemented in Sierra Leone, in
+West Africa, since 2018 with technical assistance from the University of
+Toronto and implemented locally by the Ministry of Health, in
+collaboration with the Njala University.^viii^
+
+This manual describes key steps and resources needed for the
+implementation of an SRS by an LMIC, building on the experience from
+Mozambique. It is developed as a practical resource with step-by-step
+guidance for countries and institutions interested in implementing an
+SRS for mortality surveillance. Supplementary materials are developed
+and made available to support each step. These materials are provided
+are samples or templates for adaptation and customization based on the
+country context and the objectives of the SRS.
+
+The manual is based on twelve key steps for building and making
+functional an SRS, going from the initial conception to the full
+implementation and dissemination of the results. These twelve steps are
+organized within seven key phases that define the life-cycle of an SRS
+system.
+
+# Sample Registration System Defined: Sample-Based Mortality Surveillance System (SMSS)
+
+Setel and colleagues defined a SRS as "a community-based system
+implemented in a nationally representative cluster sample"[^10]. SRS is
+a sustained continuous rigorous data collection and analysis approach
+that relies on a sample of the population organized in geographic
+clusters and drawn to be nationally and sub-nationally representative
+with the aim of producing population empirical estimates of mortality
+and cause of death and other population demographics. The name SRS can
+be misleading as the system does not aim to legally register events
+births and identify deaths. Its main purpose is to generate data for
+statistics, as opposed to a CRVS which is mandated for legal
+registration and official documentation of vital events. By design, an
+SRS does not exhaustively cover the entire population of a country but
+collects data from only a small fraction (1-5% depending on total
+population size) to make inferences on the entire population. Depending
+on resources and country needs, the population covered can be selected
+in such a way that population indicators measured are representative at
+specified statistical domains, which can be national,
+regional/provincial, or district-level. Thus, an SRS is a sample vital
+statistics system, often limited to most relevant vital events such as
+births, deaths, and population counts. Given the centrality of
+collecting mortality data, we will refer to it as a Sample-based
+Mortality Surveillance System (SMSS). Throughout the manual, we refer to
+SRS as SMSS.
+
++-----------------------------------------------------------------------+
+| Defining mortality surveillance                                       |
++:======================================================================+
+| A SMSS involves:                                                      |
+|                                                                       |
+| -   Continuous near real-time data collection on births, deaths, and  |
+|     causes of death, consistently with existing global or national    |
+|     standards.                                                        |
+|                                                                       |
+| -   Ideally, updated population counts by age and sex.                |
+|                                                                       |
+| -   Geographically contained and sample-based estimates, whether      |
+|     national or subnational, with population representativeness       |
+|                                                                       |
+| -   Data analysis to produce reliable and interpretable estimates of  |
+|     all-causes and cause-specific mortality with relevant             |
+|     disaggregation (by age, sex, and other selected characteristics). |
+|                                                                       |
+| -   Regular data release for use in policy and program                |
+|     decision-making, learning, and research.                          |
++-----------------------------------------------------------------------+
+
+Overview of How to Create an SMSS
+
+Designing and successfully implementing an SMSS is a longterm commitment
+that must be guided by a government vision of establishing a sustainable
+surveillance system for rapid mortality and cause of death data
+generation and use. Such systems must be guided by six main principles
+that ensure that consideration and value is given to the existing data
+system through possible linkages or integration, key stakeholders and
+players at the country level are engaged, and progress and priority
+toward full functioning of civil registration and vital statistics is
+not diminished. The box below summarizes these six guiding principles.
+Countries or users may define additional principles depending on their
+specific context and objectives of the surveillance system being
+pursued.
+
++-----------------------------------------------------------------------+
+| **Six Guiding Principles for Establishing a Mortality Surveillance    |
+| System**                                                              |
++=======================================================================+
+| 1.  The collection of mortality statistics is complex and requires    |
+|     the involvment of multiple sectors and stakeholders that are      |
+|     interested in these statistics.                                   |
+|                                                                       |
+| 2.  Many countries are already implementing various surveillance      |
+|     systems that are at different levels of maturity.                 |
+|                                                                       |
+| 3.  The proposed surveillance system must leverage and build on       |
+|     existing country digital tools and surveillance systems rather    |
+|     than creating a completely new and parallel system.               |
+|                                                                       |
+| 4.  New platforms may be proposed to support additional data          |
+|     collection, in order to enhance or fill gaps in existing          |
+|     platforms, but they must incorporate linkages and                 |
+|     interoperability with key existing government systems.            |
+|                                                                       |
+| 5.  The proposed mortality surveillance system must value, support,   |
+|     and strengthen the country's vision for establishing a long-term  |
+|     CVRS.                                                             |
+|                                                                       |
+| 6.  The proposed system has a data production function solely and     |
+|     does not seek to interfere with the legal framework of CRVS or    |
+|     the service delivery function of other existing systems, although |
+|     it may support the optimal functionality of these systems         |
+|     regarding these objectives.                                       |
++-----------------------------------------------------------------------+
+
+More concretely, the development of an SMSS requires twelve key steps
+which are presented on the following page. These four phases are
+continuous throughout the life of the SMSS. These are enumerated below
+and constitute the common thread and outline of this manual. Each step
+is further detailed in each section of the manual.
+
+![](media/image2.svg){width="6.5in" height="8.411805555555556in"}
+
+Taking a big picture view, the steps that can be organized in six
+distinct phases that we refer to as the lifecycle of an SMSS. These six
+phases are divided into two components. The start-up component includes
+the phases of conception, planning, and launch which are completed when
+the system is first established. The recurrent components include:
+routine data collection and transfer; data review, analysis, integration
+and use; and assessment, adjustment, and sustainability.
+
+![](media/image4.svg){width="6.497916666666667in"
+height="8.409722222222221in"}
+
+As shown in the diagram below, the timing of the individual steps can
+overlap. Although the duration of each step will vary according to the
+context, the approximate duration is presented below.
+
+Timing and Duration of SMSS Implementation Steps
+
+![](media/image5.emf){width="6.5in" height="2.2368055555555557in"}
+
+To learn more:
+
+-   [*A Door-to-Door Effort to Find Out Who Died Helps Low-Income
+    Countries Aid the
+    Living*](https://www.nytimes.com/2022/04/19/health/death-records-africa-electronic-autopsy.html?searchResultPosition=21)
+    · A 2022 *New York Times* article about a sample registration system
+    in Sierra Leone.
+
+-   [*The Lifesaving Power of ...
+    Paperwork?*](https://www.nytimes.com/2023/03/29/magazine/birth-death-tally.html)
+    ·A *New York Times* article from 2023 explaining a surveillance
+    system in rural Colombia.
+
+-   *[National Sample Vital Registration System: A sustainable platform
+    for COVID-19 and other infectious disease surveillance in low and
+    middle-income
+    countries.](https://jogh.org/documents/issue202002/jogh-10-020368.pdf)
+    ·* A 2020 journal commentary.
+
+-   [*Addressing the Gaps in Mortality Data: A Case for National
+    Mortality
+    Surveillance*](https://www.ajtmh.org/view/journals/tpmd/108/5_Suppl/article-p1.xml)
+    · A commentary by the guest editor of the supplement in *The
+    American Journal of Tropical Medicine and Hygiene* which described
+    the COMSA Mozambique project.
+
+[^1]: <http://censusindia.gov.in/vital_statistics/SRS/Sample_Registration_System.aspx>
+
+[^2]: Bangladesh Bureau of Statistics (BBS). Report of Bangladesh Sample
+    Vital Statistics 2018. Dhaka, Bangladesh, May 2019.
+    [www.bbs.gov.bd](http://www.bbs.gov.bd)
+
+[^3]: Usman Y, Iriawan RW, Rosita T, Lusiana M, Kosen S, Kelly M et al.
+    Indonesia's sample registration system in 2018: a work in progress.
+    *Journal of Population and Social Studies*. Vol 27 No. 1, 2019:
+    January -- March, DOI: 10.25133/JPSSv27n1.003
+
+[^4]: Hoa NP, Rao C, Hoy DG, Hinh ND, Chuc NTK, Ngo DA. Mortality
+    measures from sample-based surveillance: evidence of the
+    epidemiological transition in Viet Nam. *Bull World Health Organ*
+    2012;90:764--772; doi:10.2471/BLT.11.100750
+
+[^5]: Liu S, Wu X, Lopez AD et al. An integrated national mortality
+    surveillance system for death registration and mortality
+    surveillance, China. *Bull World Health Organ*
+    2016;94:46--57;doi:http://dx.doi.org/10.2471/BLT.15.153148
+
+[^6]: Kabadi GS, Geubbels E, Lyatuu I, et al. Data resource profile: the
+    sentinel panel of districts: tanzania's national platform for health
+    impact evaluation. Int J Epidemiol. 2015;44:79--86
+
+[^7]: Amouzou A, Kante A, Macicame I, Antonio A, Gudo E, Duce P, Black
+    RE. National sample vital registration system: a sustainable
+    platform for COVID-19 and other infection disease surveillance in
+    low and middle income countries. Journal of Global Health, December
+    2020, Vol. 10 No. 2. 020368; doi: 10.7189/jogh.10.020368
+
+[^8]: Carshon-Marsh R, Aimone A, Ansumana R, Swaray IB, Assalif A, Musa
+    A et al. Child, maternal, and adult mortality in Sierra Leone:
+    nationally representative mortality survey 2018--20, *Lancet Glob
+    Health* 2021, published Online November 25, 2021
+    https://doi.org/10.1016/ S2214-109X(21)00459-9
+
+[^9]: Africa CDC. Continental Framework. Strengthening mortality
+    surveillance systems in Africa. July 2023.
+    <https://africacdc.org/download/continental-framework-on-strengthening-mortality-surveillance-systems-in-africa/>
+    (accessed November 12, 2023); See press release for the launch at
+    <https://africacdc.org/news-item/strengthening-mortality-surveillance-in-africa-africa-cdc-launches-continental-framework-document-to-support-member-states/>
+    (accessed January 2, 2023)
+
+[^10]: Setel PW, Sankoh O, Rao C, Velkoff VA, Mathers C, Gonghuan Y et
+    al. Sample registration of vital events with verbal autopsy: a
+    renewed commitment to measuring and monitoring vital statistics.
+    *Bulletin of the World Health Organization* 2005;83:611-617
